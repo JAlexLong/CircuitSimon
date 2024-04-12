@@ -1,8 +1,8 @@
-import board
+import board # type: ignore
 import random
 
 from time import sleep, time
-from digitalio import DigitalInOut, Direction, Pull
+from digitalio import DigitalInOut, Direction, Pull # type: ignore
 
 # configure buttons
 red_button = DigitalInOut(board.GP13)
